@@ -9,6 +9,7 @@ export const loginFun=(params,cb)=>{
         })
     }
 
+    
 
     // return (dispatch)=>{
     //     return FetchPost(Config.HOST,nlscapiName,params,API.SIMPLE_OPEN_ACCOUNT_HEADER).then(res=>{
