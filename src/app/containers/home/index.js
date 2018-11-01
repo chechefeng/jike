@@ -6,6 +6,9 @@ import "./css/index.css"
 const SubMenu = Menu.SubMenu;
 const MenuItemGroup = Menu.ItemGroup
 import Navs from "./nav"
+import Footer from './Footer'
+import Section2 from './Section2'
+
 class Home extends Component {
 
     constructor(props) {
@@ -21,11 +24,12 @@ class Home extends Component {
     render() {
         return (
             <div >
-
-
-
                 <hr/>
                 <Navs/>
+                <hr/>
+                <Section2/>
+                <hr/>
+                <Footer />
             </div>
 
         )
