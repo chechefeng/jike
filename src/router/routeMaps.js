@@ -3,6 +3,7 @@ import { Router, Route, IndexRoute } from 'react-router';
 
 import layout from '../layout';
 import  login from "../app/containers/login/login"
+import  home from "../app/containers/home/index"
 
 class RouteMap extends React.Component {
     updateHandle() {
@@ -17,7 +18,7 @@ class RouteMap extends React.Component {
         return (
             <Router history={this.props.history}  onUpdate={this.updateHandle.bind(this)}>
                 <Route path="/" component={layout}>
-                    <IndexRoute component={login} />
+                    <IndexRoute component={home} />
 
 
                 </Route>
