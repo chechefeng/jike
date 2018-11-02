@@ -1,6 +1,10 @@
 import React, {Component} from 'react';
 import {Row, Col, Menu, Button} from 'antd';
-
+import Part_1 from "./part1"
+import Part_2 from "./part2"
+import Part_3 from "./part3"
+import Part_4 from "./part4"
+import Part_5 from "./part5"
 
 import "./css/index.css"
 const SubMenu = Menu.SubMenu;
@@ -26,10 +30,24 @@ class Home extends Component {
             <div >
                 <hr/>
                 <Navs/>
+<<<<<<< HEAD
                 <hr/>
                 <Section2/>
                 <hr/>
                 <Footer />
+=======
+                <main className="body">
+                    <div className="body__inner">
+                        <Part_1/>
+                        <Part_2/>
+                        <Part_3/>
+                        <Part_4/>
+                        <Part_5/>
+
+                    </div>
+
+                </main>
+>>>>>>> 7b0b8fd3fd1894579f8bd00e5111508611b8702f
             </div>
 
         )
