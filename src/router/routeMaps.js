@@ -2,7 +2,7 @@ import React from 'react';
 import {Router, Route, IndexRoute} from 'react-router';
 
 import Layout from '../layout';
-import  Home from "../app/containers/home/index"
+import  Home from "../app/containers/home/index.jsx"
 import  Login from "../app/containers/login/login"
 class RouteMap extends React.Component {
     updateHandle() {

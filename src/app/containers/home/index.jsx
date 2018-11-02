@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import {Row, Col, Menu, Button} from 'antd';
 import Part_1 from "./part1"
 import Part_2 from "./part2"
 import Part_3 from "./part3"
@@ -10,11 +9,7 @@ import Part_7 from "./part7"
 import Part_8 from "./part8"
 
 import "./css/index.css"
-const SubMenu = Menu.SubMenu;
-const MenuItemGroup = Menu.ItemGroup
 import Navs from "./nav"
-import Footer from './Footer'
-import Section2 from './Section2'
 
 class Home extends Component {
 
@@ -32,7 +27,6 @@ class Home extends Component {
         return (
             <div >
                 <Navs/>
-                {/*<Section2/>*/}
                 <main className="body">
                     <div className="body__inner">
                         <Part_1/>
@@ -47,7 +41,6 @@ class Home extends Component {
                     </div>
 
                 </main>
-                <Footer />
             </div>
 
         )

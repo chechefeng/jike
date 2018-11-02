@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Footer from "../app/containers/home/Footer.jsx"
 
 class layout extends React.Component {
     constructor(props){
@@ -13,15 +13,12 @@ class layout extends React.Component {
         return (
             <div>
                {this.props.children}
+                <Footer/>
             </div>
         )
     }
 
     componentDidMount(){
-
-        //预加载数据
-
-        //更改状态
         this.setState({
             initDone: true
         })

@@ -38,13 +38,13 @@ export  default class Part6 extends Component {
                                 that serve your needs.</p></div>
                         </div>
                     </div>
-                    <div className="_cta text-center"><a className="button -big -red" href="/try-twilio">
+                    <div className="_cta text-center"><a className="button -big -red" >
                         Sign up and start building
 
                     </a><p className="sub-cta ">
                         Not ready yet?
 
-                        <a href="/help/sales" className="_link link-red-underline">
+                        <a  className="_link link-red-underline">
                             Talk to an expert.
                         </a></p></div>
                 </div>

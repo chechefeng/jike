@@ -27,7 +27,7 @@ export  default class Part3 extends Component {
                         </svg>
                     </div>
                     <h2 className="_title">Ahoy, <span>SendGrid</span>!</h2><p>Twilio to acquire the leading email API
-                    platform, SendGrid.</p><a href="/blog/twilio-to-acquire-sendgrid">Read more</a></div>
+                    platform, SendGrid.</p><a >Read more</a></div>
             </div>
         )
     }

@@ -21,13 +21,13 @@ export  default class Part1 extends Component {
                     <div className="lead "><p className="_supertitle -red">
                         Build the future of communications
                     </p><h1 className="_title  ">Engage customers like never before on Voice, SMS, Video, and
-                        WhatsApp. </h1><a className="button -big -red -prompt" href="/try-twilio">
+                        WhatsApp. </h1><a className="button -big -red -prompt" >
                         Get a free API key
 
                     </a><p className="sub-cta ">
                         Questions?
 
-                        <a href="/help/sales" className="_link link-red-underline">
+                        <a  className="_link link-red-underline">
                             Talk to an expert.
                         </a></p></div>
                     <div className="content ">
@@ -73,7 +73,6 @@ export  default class Part1 extends Component {
                                         <div className="_name">Jacinda Shelly</div>
                                         <div className="_text">Delivers quality care from anywhere with Twilio Video.</div>
                                         <div className="_link"><a
-                                            href="/learn/voice-and-video/how-doctor-on-demand-uses-programmable-video"
                                             target="_blank" className="logo-superphone">
                                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 110.86 26.51"><title>
                                                 Artboard 53</title>
@@ -154,7 +153,6 @@ export  default class Part1 extends Component {
                                         <div className="_name">Nancy Lublin</div>
                                         <div className="_text">Delivers crisis support via SMS.</div>
                                         <div className="_link"><a
-                                            href="/blog/2016/07/what-19-million-texts-can-tell-you-about-crisis-in-the-u-s-crisis-text-line-fights-an-epidemic-with-data.html"
                                             target="_blank">
                                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 112.01 34.16"><title>
                                                 logo-crisis-text-line</title>
@@ -171,9 +169,7 @@ export  default class Part1 extends Component {
                                          style={{opacity: "1", transform: "matrix(1, 0, 0, 1, 0, 0)"}}>
                                         <div className="_name">David Ganey</div>
                                         <div className="_text">Uses Twilio SMS to close deals faster.</div>
-                                        <div className="_link"><a
-                                            href="/blog/2017/12/redfin-redefining-the-real-estate-experience.html"
-                                            target="_blank">
+                                        <div className="_link"><a>
                                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 81.35 21.57"><title>
                                                 Artboard 50</title>
                                                 <path
@@ -186,8 +182,7 @@ export  default class Part1 extends Component {
                                          style={{opacity: '0.985421', transform: 'translate3d(0.583146px, 0px, 0px)'}}>
                                         <div className="_name">Mai Le</div>
                                         <div className="_text">Drives hyper-growth in 77 countries with Twilio.</div>
-                                        <div className="_link"><a href="https://customers.twilio.com/208/uber/"
-                                                              target="_blank" className="logo-uber">
+                                        <div className="_link"><a  className="logo-uber">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="165.8" height="34.7"
                                                  viewBox="34.2 383 165.8 34.7">
                                                 <path
