@@ -13,6 +13,9 @@ import "./css/index.css"
 const SubMenu = Menu.SubMenu;
 const MenuItemGroup = Menu.ItemGroup
 import Navs from "./nav"
+import Footer from './Footer'
+import Section2 from './Section2'
+
 class Home extends Component {
 
     constructor(props) {
@@ -28,11 +31,14 @@ class Home extends Component {
     render() {
         return (
             <div >
-
-
-
                 <hr/>
                 <Navs/>
+<<<<<<< HEAD
+                <hr/>
+                <Section2/>
+                <hr/>
+                <Footer />
+=======
                 <main className="body">
                     <div className="body__inner">
                         <Part_1/>
@@ -47,6 +53,7 @@ class Home extends Component {
                     </div>
 
                 </main>
+>>>>>>> 7b0b8fd3fd1894579f8bd00e5111508611b8702f
             </div>
 
         )
