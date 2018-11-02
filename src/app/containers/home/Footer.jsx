@@ -14,19 +14,19 @@ class Footer extends Component {
                                     <header className="footer__header">Products</header>
                                     <ul className="footer__list">
                                         <li className="footer__list-item">
-                                            <a href="/voice-video" className="footer__link">Voice &amp; Video</a>
+                                            <a  className="footer__link">Voice &amp; Video</a>
                                         </li>
                                         <li className="footer__list-item">
-                                            <a href="/messaging" className="footer__link">Messaging</a>
+                                            <a  className="footer__link">Messaging</a>
                                         </li>
                                         <li className="footer__list-item">
-                                            <a href="/authy" className="footer__link">Authentication</a>
+                                            <a  className="footer__link">Authentication</a>
                                         </li>
                                         <li className="footer__list-item">
-                                            <a href="/wireless" className="footer__link">Connected Devices</a>
+                                            <a  className="footer__link">Connected Devices</a>
                                         </li>
                                         <li className="footer__list-item">
-                                            <a href="/engagement-cloud" className="footer__link">Engagement Cloud</a>
+                                            <a  className="footer__link">Engagement Cloud</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -34,19 +34,19 @@ class Footer extends Component {
                                     <header className="footer__header">Solutions</header>
                                     <ul className="footer__list">
                                         <li className="footer__list-item">
-                                            <a href="/solutions/account-security" className="footer__link">Account Security</a>
+                                            <a className="footer__link">Account Security</a>
                                         </li>
                                         <li className="footer__list-item">
-                                            <a href="/solutions/text-marketing" className="footer__link">Text Marketing</a>
+                                            <a className="footer__link">Text Marketing</a>
                                         </li>
                                         <li className="footer__list-item">
-                                            <a href="/use-cases/collaboration" className="footer__link">Collaboration</a>
+                                            <a  className="footer__link">Collaboration</a>
                                         </li>
                                         <li className="footer__list-item">
-                                            <a href="/use-cases/commerce-communications" className="footer__link">Commerce Communications</a>
+                                            <a className="footer__link">Commerce Communications</a>
                                         </li>
                                         <li className="footer__list-item">
-                                            <a href="/use-cases/contact-center" className="footer__link">Contact Center</a>
+                                            <a className="footer__link">Contact Center</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -54,19 +54,19 @@ class Footer extends Component {
                                     <header className="footer__header">Docs</header>
                                     <ul className="footer__list">
                                         <li className="footer__list-item">
-                                            <a href="/docs/quickstart" className="footer__link">Quickstarts</a>
+                                            <a className="footer__link">Quickstarts</a>
                                         </li>
                                         <li className="footer__list-item">
-                                            <a href="/docs/tutorials" className="footer__link">Tutorials</a>
+                                            <a >Tutorials</a>
                                         </li>
                                         <li className="footer__list-item">
-                                            <a href="/docs/api" className="footer__link">API Reference</a>
+                                            <a className="footer__link">API Reference</a>
                                         </li>
                                         <li className="footer__list-item">
-                                            <a href="/docs/libraries" className="footer__link">Helper Libraries</a>
+                                            <a  className="footer__link">Helper Libraries</a>
                                         </li>
                                         <li className="footer__list-item">
-                                            <a href="http://status.twilio.com" className="footer__link">API Status</a>
+                                            <a  className="footer__link">API Status</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -74,28 +74,28 @@ class Footer extends Component {
                                     <header className="footer__header">Company</header>
                                     <ul className="footer__list">
                                         <li className="footer__list-item">
-                                            <a href="/company" className="footer__link">About Twilio</a>
+                                            <a  className="footer__link">About Twilio</a>
                                         </li>
                                         <li className="footer__list-item">
-                                            <a href="/what-is-cloud-communications?" className="footer__link">What is Twilio?</a>
+                                            <a className="footer__link">What is Twilio?</a>
                                         </li>
                                         <li className="footer__list-item">
-                                            <a href="https://customers.twilio.com" className="footer__link">Customers</a>
+                                            <a className="footer__link">Customers</a>
                                         </li>
                                         <li className="footer__list-item">
-                                            <a href="/help" className="footer__link">Get Help</a>
+                                            <a  className="footer__link">Get Help</a>
                                         </li>
                                         <li className="footer__list-item">
-                                            <a href="/help/sales" className="footer__link">Talk to an expert</a>
+                                            <a className="footer__link">Talk to an expert</a>
                                         </li>
                                         <li className="footer__list-item">
-                                            <a href="/press" className="footer__link">Press &amp; Media</a>
+                                            <a  className="footer__link">Press &amp; Media</a>
                                         </li>
                                         <li className="footer__list-item">
-                                            <a href="https://investors.twilio.com" className="footer__link">Investor Relations</a>
+                                            <a  className="footer__link">Investor Relations</a>
                                         </li>
                                         <li className="footer__list-item">
-                                            <a href="/company/jobs" className="footer__link">Jobs at Twilio</a>
+                                            <a  className="footer__link">Jobs at Twilio</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -113,25 +113,25 @@ class Footer extends Component {
                             </div>
                             <ul className="legal__list">
                                 <li className="legal__list-item">
-                                    <a href="/legal" className="legal__link">Legal</a>
+                                    <a  className="legal__link">Legal</a>
                                 </li>
                                 <li className="legal__list-item">
-                                    <a href="/legal/privacy" className="legal__link">Privacy</a>
+                                    <a  className="legal__link">Privacy</a>
                                 </li>
                                 <li className="legal__list-item">
-                                    <a href="http://twilio.org" className="legal__link">Twilio.org</a>
+                                    <a  className="legal__link">Twilio.org</a>
                                 </li>
                                 <li className="legal__list-item">
-                                    <a href="/press" className="legal__link">Press &amp; Media</a>
+                                    <a  className="legal__link">Press &amp; Media</a>
                                 </li>
                                 <li className="legal__list-item">
-                                    <a href="https://signal.twilio.com" className="legal__link">SIGNAL</a>
+                                    <a className="legal__link">SIGNAL</a>
                                 </li>
                                 <li className="legal__list-item">
-                                    <a href="https://investors.twilio.com" className="legal__link">Investors</a>
+                                    <a className="legal__link">Investors</a>
                                 </li>
                                 <li className="legal__list-item">
-                                    <a href="/company/jobs" className="legal__link">Jobs</a>
+                                    <a  className="legal__link">Jobs</a>
                                 </li>
                             </ul>
                             <ul className="footer__copyright legal__list">
