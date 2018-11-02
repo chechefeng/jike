@@ -198,7 +198,7 @@
 }
 
 .slick-next:hover:before,.slick-prev:hover:before {
-    transform: scale(1.2);
+    transform: scale(5.2);
     opacity: 1
 }
 
@@ -3283,7 +3283,7 @@ body {
 }
 
 .section._logo-list .logo-link:hover svg {
-    transform: scale(1.03)
+    transform: scale(5.03)
 }
 
 .section._logo-list .logo-link:hover svg * {
@@ -3432,7 +3432,7 @@ body {
     height: 0;
     padding-top: 47%;
     width: 100%;
-    background: url(/marketing/bundles/homepage/img/explainer-video-poster.png) 50%/100% auto no-repeat #a98ca6
+    background: url("../img/explainer-video-poster.png") 50%/100% auto no-repeat #a98ca6
 }
 
 @media screen and (min-width: 1400px) {

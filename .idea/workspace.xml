@@ -2,18 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9d2c2272-007b-4679-af29-8ccf65c4b8f0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/app/containers/home/css/homepage.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/app/containers/home/part1.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/app/containers/home/part2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/app/containers/home/part3.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/app/containers/home/part4.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/app/containers/home/part5.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/app/containers/home/part6.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/app/containers/home/part7.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/app/containers/home/part8.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/app/containers/home/part9.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/app/containers/home/img/explainer-video-poster.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/app/containers/home/img/icon-success-rate-3x.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/containers/home/css/homepage.css" afterPath="$PROJECT_DIR$/src/app/containers/home/css/homepage.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/containers/home/index.js" afterPath="$PROJECT_DIR$/src/app/containers/home/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/containers/home/part6.js" afterPath="$PROJECT_DIR$/src/app/containers/home/part6.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/containers/home/part7.js" afterPath="$PROJECT_DIR$/src/app/containers/home/part7.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/containers/home/part8.js" afterPath="$PROJECT_DIR$/src/app/containers/home/part8.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -37,8 +33,8 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app/containers/home/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+            <state relative-caret-position="399">
+              <caret line="44" column="31" lean-forward="false" selection-start-line="44" selection-start-column="31" selection-end-line="44" selection-end-column="31" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -46,28 +42,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="part5.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/app/containers/home/part5.js">
+      <file leaf-file-name="part8.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/containers/home/part8.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="489">
-              <caret line="104" column="123" lean-forward="true" selection-start-line="104" selection-start-column="123" selection-end-line="104" selection-end-column="123" />
+            <state relative-caret-position="426">
+              <caret line="39" column="50" lean-forward="false" selection-start-line="39" selection-start-column="45" selection-end-line="39" selection-end-column="50" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/containers/home/css/index.css">
+      <file leaf-file-name="homepage.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/app/containers/home/css/homepage.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4198">
-              <caret line="2320" column="0" lean-forward="true" selection-start-line="2320" selection-start-column="0" selection-end-line="2320" selection-end-column="0" />
-              <folding>
-                <element signature="e#3118#3553#1" expanded="true" />
-                <element signature="e#3675#4110#2" expanded="true" />
-                <element signature="e#5691#7810#2" expanded="true" />
-                <element signature="e#8390#8825#2" expanded="true" />
-                <element signature="e#9032#11155#1" expanded="true" />
-              </folding>
+            <state relative-caret-position="210">
+              <caret line="402" column="0" lean-forward="false" selection-start-line="402" selection-start-column="0" selection-end-line="402" selection-end-column="224" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -86,29 +76,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Row</find>
-      <find>ajv</find>
-      <find>scss</find>
-      <find>es6</find>
-      <find>hr</find>
-      <find>svg</find>
-      <find>path</find>
-      <find>href</find>
-      <find>matrix</find>
-      <find>style=&quot;opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0);&quot;</find>
       <find>style=&quot;opacity: 0; transform: matrix(1, 0, 0, 1, 0, 0);&quot;</find>
       <find>style={{opacity: &quot;0&quot;, transform: &quot;matrix(1, 0, 0, 1, 0, 0)&quot;}}</find>
       <find>style=&quot;fill: #565b73&quot;</find>
-      <find>tabindex</find>
       <find>st1</find>
-      <find>style</find>
       <find>Body</find>
       <find>contenteditable</find>
-      <find>class</find>
       <find>style=&quot;fill:#e8e8e8&quot;</find>
       <find>style=&quot;fill:#fff;fill-rule:evenodd&quot;</find>
-      <find>style=&quot;</find>
       <find>style=&quot;fill:#36d576&quot;</find>
+      <find>style=&quot;</find>
+      <find>class</find>
+      <find>poster</find>
+      <find>style</find>
+      <find>&lt;form</find>
+      <find>form&gt;</find>
+      <find>input</find>
+      <find>style=&quot;</find>
+      <find>tabindex</find>
+      <find>novalidate</find>
+      <find>autocomplete</find>
+      <find>selected</find>
+      <find>scale</find>
+      <find>formElement9031</find>
+      <find>firstName</find>
+      <find>product</find>
+      <find>label</find>
+      <find>form__group</find>
+      <find>empty</find>
+      <find>.form__group label</find>
+      <find>form__group--select</find>
     </findStrings>
     <replaceStrings>
       <replace>style={{opacity: &quot;0&quot;, transform: &quot;matrix(1, 0, 0, 1, 0, 0)&quot;}}</replace>
@@ -116,10 +113,12 @@
       <replace>style=&quot;fill: #565b73</replace>
       <replace>style={{fill:&quot; #565b73&quot;}}</replace>
       <replace>style={{opacity:' 1', transform:' matrix(1, 0, 0, 1, 0, 0)'}}</replace>
-      <replace>tabIndex</replace>
-      <replace>className</replace>
       <replace>style={{fill:&quot;none&quot;,stroke:&quot;#fff&quot;,strokeLinejoin:&quot;round&quot;,strokeWidth:&quot;2px&quot;,opacity:&quot;0.5&quot;}}</replace>
       <replace>style={{fill:&quot;#36d576&quot;}}</replace>
+      <replace>className</replace>
+      <replace>style={{display:' none'}}</replace>
+      <replace>tabIndex</replace>
+      <replace>autoComplete</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -136,19 +135,20 @@
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/app/containers/home/css/index.sass" />
         <option value="$PROJECT_DIR$/src/app/containers/home/css/index.less" />
-        <option value="$PROJECT_DIR$/src/app/containers/home/css/index.css" />
         <option value="$PROJECT_DIR$/src/app/containers/home/nav.js" />
         <option value="$PROJECT_DIR$/src/app/containers/home/part1.js" />
-        <option value="$PROJECT_DIR$/src/app/containers/home/css/homepage.css" />
         <option value="$PROJECT_DIR$/src/app/containers/home/part3.js" />
         <option value="$PROJECT_DIR$/src/app/containers/home/part2.js" />
         <option value="$PROJECT_DIR$/src/app/containers/home/part4.js" />
+        <option value="$PROJECT_DIR$/src/app/containers/home/part5.js" />
+        <option value="$PROJECT_DIR$/src/app/containers/home/part9.js" />
         <option value="$PROJECT_DIR$/src/app/containers/home/part6.js" />
         <option value="$PROJECT_DIR$/src/app/containers/home/part7.js" />
-        <option value="$PROJECT_DIR$/src/app/containers/home/part8.js" />
-        <option value="$PROJECT_DIR$/src/app/containers/home/part9.js" />
         <option value="$PROJECT_DIR$/src/app/containers/home/index.js" />
-        <option value="$PROJECT_DIR$/src/app/containers/home/part5.js" />
+        <option value="$PROJECT_DIR$/public/index.html" />
+        <option value="$PROJECT_DIR$/src/app/containers/home/css/index.css" />
+        <option value="$PROJECT_DIR$/src/app/containers/home/part8.js" />
+        <option value="$PROJECT_DIR$/src/app/containers/home/css/homepage.css" />
       </list>
     </option>
   </component>
@@ -276,6 +276,50 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ld&amp;lp_dev" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ld&amp;lp_dev" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="containers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="home" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ld&amp;lp_dev" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ld&amp;lp_dev" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -293,6 +337,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/app/containers/home/img" />
       <recent name="$PROJECT_DIR$/src/app/containers/home" />
     </key>
   </component>
@@ -389,16 +434,16 @@
       <updated>1541054352501</updated>
       <workItem from="1541054353787" duration="4408000" />
       <workItem from="1541059492244" duration="2943000" />
-      <workItem from="1541063027721" duration="10327000" />
+      <workItem from="1541063027721" duration="15967000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17678000" />
+    <option name="totallyTimeSpent" value="23318000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="32" width="1410" height="797" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15910727" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -408,7 +453,7 @@
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.6524823" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6524823" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -653,20 +698,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/containers/home/css/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4198">
-          <caret line="2320" column="0" lean-forward="true" selection-start-line="2320" selection-start-column="0" selection-end-line="2320" selection-end-column="0" />
-          <folding>
-            <element signature="e#3118#3553#1" expanded="true" />
-            <element signature="e#3675#4110#2" expanded="true" />
-            <element signature="e#5691#7810#2" expanded="true" />
-            <element signature="e#8390#8825#2" expanded="true" />
-            <element signature="e#9032#11155#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/containers/home/part1.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
@@ -686,33 +717,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/containers/home/css/homepage.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="496">
-          <caret line="3638" column="4" lean-forward="false" selection-start-line="3638" selection-start-column="1" selection-end-line="3638" selection-end-column="4" />
-          <folding>
-            <element signature="e#458#1373#1" expanded="true" />
-            <element signature="e#2080#2891#2" expanded="true" />
-            <element signature="e#5431#5766#2" expanded="true" />
-            <element signature="e#5855#6198#2" expanded="true" />
-            <element signature="e#6339#6682#2" expanded="true" />
-            <element signature="e#6771#7106#2" expanded="true" />
-            <element signature="e#22517#50064#2" expanded="true" />
-            <element signature="e#59363#63314#1" expanded="true" />
-            <element signature="e#63442#67373#1" expanded="true" />
-            <element signature="e#67501#71808#1" expanded="true" />
-            <element signature="e#76564#76855#1" expanded="true" />
-            <element signature="e#99360#99823#1" expanded="true" />
-            <element signature="e#100006#103457#1" expanded="true" />
-            <element signature="e#106434#109889#1" expanded="true" />
-            <element signature="e#110446#112101#2" expanded="true" />
-            <element signature="e#112611#113450#1" expanded="true" />
-            <element signature="e#113879#117330#1" expanded="true" />
-            <element signature="e#124741#127224#2" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/containers/home/part2.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
@@ -723,36 +727,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/containers/home/part9.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="2" column="27" lean-forward="false" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/containers/home/part8.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="2" column="27" lean-forward="false" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/containers/home/part7.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="2" column="27" lean-forward="false" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/containers/home/part3.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-42">
           <caret line="2" column="27" lean-forward="false" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
           <folding>
-            <element signature="e#0#38#0" expanded="true" />
+            <element signature="e#0#38#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -762,25 +742,7 @@
         <state relative-caret-position="2394">
           <caret line="78" column="44" lean-forward="false" selection-start-line="78" selection-start-column="44" selection-end-line="78" selection-end-column="44" />
           <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/containers/home/part6.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="2" column="27" lean-forward="false" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/containers/home/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
+            <element signature="e#0#38#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -789,6 +751,83 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="489">
           <caret line="104" column="123" lean-forward="true" selection-start-line="104" selection-start-column="123" selection-end-line="104" selection-end-column="123" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/containers/home/img/icon-success-rate-3x.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/containers/home/part6.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-331">
+          <caret line="16" column="103" lean-forward="false" selection-start-line="16" selection-start-column="103" selection-end-line="16" selection-end-column="103" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/containers/home/part7.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="17" lean-forward="false" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/containers/home/part9.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/containers/home/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="44" column="31" lean-forward="false" selection-start-line="44" selection-start-column="31" selection-end-line="44" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="565">
+          <caret line="37" column="7" lean-forward="true" selection-start-line="37" selection-start-column="7" selection-end-line="37" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/containers/home/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="607" column="18" lean-forward="true" selection-start-line="607" selection-start-column="18" selection-end-line="607" selection-end-column="18" />
+          <folding>
+            <element signature="e#3118#3553#1" expanded="true" />
+            <element signature="e#3675#4110#2" expanded="true" />
+            <element signature="e#5691#7810#2" expanded="true" />
+            <element signature="e#8390#8825#2" expanded="true" />
+            <element signature="e#9032#11155#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/containers/home/part8.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="426">
+          <caret line="39" column="50" lean-forward="false" selection-start-line="39" selection-start-column="45" selection-end-line="39" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/containers/home/css/homepage.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="402" column="0" lean-forward="false" selection-start-line="402" selection-start-column="0" selection-end-line="402" selection-end-column="224" />
           <folding />
         </state>
       </provider>
