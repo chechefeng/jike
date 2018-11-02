@@ -31,14 +31,8 @@ class Home extends Component {
     render() {
         return (
             <div >
-                <hr/>
                 <Navs/>
-<<<<<<< HEAD
-                <hr/>
-                <Section2/>
-                <hr/>
-                <Footer />
-=======
+                {/*<Section2/>*/}
                 <main className="body">
                     <div className="body__inner">
                         <Part_1/>
@@ -53,7 +47,7 @@ class Home extends Component {
                     </div>
 
                 </main>
->>>>>>> 7b0b8fd3fd1894579f8bd00e5111508611b8702f
+                <Footer />
             </div>
 
         )
