@@ -1,23 +1,22 @@
 import React, {Component} from 'react';
-import {Row, Col, Breadcrumb, Form, Select, Table, Button, Checkbox,Pagination} from 'antd';
+import {Row, Col, Breadcrumb, Form, Select, Table, Button, Checkbox, Pagination} from 'antd';
 const FormItem = Form.Item;
 const Option = Select.Option
 const ButtonGroup = Button.Group;
-
+import "./css/index.css"
 
 const data = [];
 for (var i = 0; i < 10; i++) {
     data.push({
         key: i,
-        name: `刘德华${i}`,
-        date: 32,
+        name: `刘德华${i*3}`,
+        date: 32*i,
         time: 12312,
         size: 123123123,
         state: 1313123
 
     })
 }
-
 
 class Resouse extends Component {
     constructor(props) {
@@ -26,7 +25,7 @@ class Resouse extends Component {
             selectedRowKeys: [], // Check here to configure the default column
             loading: false,
             allRowKeys: [],
-            current:1
+            current: 1,
 
         }
         this.columns = [
@@ -37,23 +36,36 @@ class Resouse extends Component {
                     return <Checkbox
                         checked={this.state.selectedRowKeys.indexOf(record.key) > -1}
                         onChange={() => this.onSelect(record.key)}/>
-                }
+                },
+                align:"center"
+
             }, {
                 title: "文件名",
                 dataIndex: 'name',
+                sorter: (a, b) => a.name.length - b.name.length,
+                align:"center"
             },
             {
                 title: '录制日期',
                 dataIndex: 'date',
+                sorter: (a, b) => a.date - b.date,
+                className:"thead",
+                align:"center"
             }, {
                 title: '时长',
                 dataIndex: 'time',
+                className:"thead",
+                align:"center"
             }, {
                 title: '大小',
                 dataIndex: 'size',
+                className:"thead",
+                align:"center"
             }, {
                 title: '状态',
                 dataIndex: 'state',
+                className:"thead",
+                align:"center"
             }];
 
 
@@ -65,6 +77,11 @@ class Resouse extends Component {
             // console.log(this.state.allRowKeys)
         }
     };
+    onSelectAll=()=>{
+        this.setState({
+            selectedRowKeys: this.state.allRowKeys
+        })
+    }
     onSelectInvert = (selectedRowKeys) => {
         // console.log('selectedRowKeys changed: ', selectedRowKeys);
         // this.setState({selectedRowKeys});
@@ -92,29 +109,15 @@ class Resouse extends Component {
         })
 
     }
-    onChangePage=(page)=>{
+    onChangePage = (page) => {
         this.setState({
-            current:page
+            current: page
         })
 
     }
+
     render() {
         const {getFieldDecorator} = this.props.form;
-        const {loading, selectedRowKeys} = this.state;
-        const rowSelection = {
-            selectedRowKeys,
-            onChange: this.onSelectChange,
-            onSelectInvert: this.onSelectInvert,
-            hideDefaultSelections: false,
-            onSelect: function (record, selected, selectedRows) {
-                console.log(record, selected, selectedRows);
-            },
-            onSelectAll: function (selected, selectedRows) {
-                console.log(selected, selectedRows);
-            }
-        };
-        const hasSelected = selectedRowKeys.length > 0;
-
         return (
             <Form>
                 <div>
@@ -123,7 +126,7 @@ class Resouse extends Component {
                             <Breadcrumb>
                                 <Breadcrumb.Item>首页</Breadcrumb.Item>
                                 <Breadcrumb.Item>资源管理</Breadcrumb.Item>
-                            </Breadcrumb>,
+                            </Breadcrumb>
                         </Col>
                         <Col span={4}>
                             <FormItem
@@ -197,7 +200,7 @@ class Resouse extends Component {
                         </Col>
                     </Row>
                 </div>
-                <Row type="flex" style={{marginBottom:"20px"}}>
+                <Row type="flex" style={{marginBottom: "20px"}}>
                     <Col span={6} offset={2}>
                         <ButtonGroup>
                             <Button
@@ -206,7 +209,7 @@ class Resouse extends Component {
                                 style={{width: "80px"}}
                             >反选</Button>
                             <Button
-                                onClick={this.onSelectInvert}
+                                onClick={this.onSelectAll}
                                 size="large"
                                 style={{width: "80px"}}
 
@@ -240,7 +243,7 @@ class Resouse extends Component {
                         total={10}
 
                     />
-                    <Row type="flex" style={{height:"80px"}} align="middle">
+                    <Row type="flex" style={{height: "80px"}} align="middle">
                         <Col span={8}></Col>
                         <Col span={8} push={3}>
                             <Pagination
@@ -249,7 +252,7 @@ class Resouse extends Component {
                                 total={20}
                                 current={this.state.current}
                                 onChange={this.onChangePage}
-                                showTotal={()=>`共 ${10} 条`}
+                                showTotal={() => `共 ${10} 条`}
                             />
 
                         </Col>
