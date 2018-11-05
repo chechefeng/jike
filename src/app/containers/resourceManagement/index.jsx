@@ -4,6 +4,7 @@ const FormItem = Form.Item;
 const Option = Select.Option
 const ButtonGroup = Button.Group;
 import "./css/index.css"
+import {Link} from "react-router"
 
 const data = [];
 for (var i = 0; i < 10; i++) {
@@ -124,7 +125,7 @@ class Resouse extends Component {
                     <Row type="flex">
                         <Col span={10} offset={1}>
                             <Breadcrumb>
-                                <Breadcrumb.Item>首页</Breadcrumb.Item>
+                                <Breadcrumb.Item> <Link to="/">首页</Link></Breadcrumb.Item>
                                 <Breadcrumb.Item>资源管理</Breadcrumb.Item>
                             </Breadcrumb>
                         </Col>

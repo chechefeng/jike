@@ -198,7 +198,7 @@
 }
 
 .slick-next:hover:before,.slick-prev:hover:before {
-    transform: scale(5.2);
+    transform: scale(1.2);
     opacity: 1
 }
 
@@ -3209,7 +3209,7 @@ body {
 
 @media (min-width: 1180px) {
     .section.hero>.container>.lead {
-        max-width:575px
+        max-width:600px
     }
 }
 
@@ -3283,7 +3283,7 @@ body {
 }
 
 .section._logo-list .logo-link:hover svg {
-    transform: scale(5.03)
+    /*transform: scale(5.03)*/
 }
 
 .section._logo-list .logo-link:hover svg * {
@@ -3637,3 +3637,21 @@ body {
 }
 .st0{fill:#eaeaea}
 .st1{fill:#fff}
+
+.slick-slide{
+    /*width: 805px;*/
+    position: relative;
+    left: 0px;
+    top: 0px;
+    z-index: 998;
+    /*opacity: 0;*/
+    transition: opacity 500ms ease 0s;
+}
+.slick-active{
+    width: 805px;
+    position: relative;
+    left: -2415px;
+    top: 0px;
+    z-index: 999;
+    opacity: 1;
+}
